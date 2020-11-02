@@ -3,7 +3,6 @@ import func from "./func"
 export default (req, res, funcs = func) => {
     res.statusCode = 200;
     const inpKeyword = req.query.keyword; //输入的关键词
-    console.log('输入关键词：', inpKeyword)
 
     let resJson = {
         author: "jonas",
